@@ -29,6 +29,21 @@ button {
     border: none;
     cursor: pointer;
 }
+.delete-btn {
+    background-color: #ff4c4c; 
+    color: white;
+    border: none; 
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    cursor: pointer; 
+    margin-left: 10px; 
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #ff0000; /* Darker red on hover */
+}
 ul {
     list-style-type: none;
     padding: 0;
